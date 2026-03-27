@@ -65,7 +65,7 @@ class ShelfieProvider extends ChangeNotifier {
     'Health',
     'Housewares',
     'Hobbies',
-    'Wardrobe',
+    'Wardrobes',
   ];
   final List<String> units = [
     'Items',

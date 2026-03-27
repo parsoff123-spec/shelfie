@@ -1,0 +1,10 @@
+^C:\USERS\STONE\DESKTOP\SHELFIE\SHELFIE\BUILD\WINDOWS\X64\CMAKEFILES\D1828087C917C426703C46CE952D39B8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Stone/Desktop/Shelfie/shelfie/windows -BC:/Users/Stone/Desktop/Shelfie/shelfie/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Stone/Desktop/Shelfie/shelfie/build/windows/x64/shelfie.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
